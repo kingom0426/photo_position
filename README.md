@@ -6,15 +6,16 @@
 
 原生 SwiftUI 工程位于 [ios/Lumen/Lumen.xcodeproj](ios/Lumen/Lumen.xcodeproj)，最低支持 iOS 17。运行和工程说明参见 [iOS README](ios/Lumen/README.md)。
 
-## Web 验证版运行
+## 后端运行
 
-需要 Node.js 18 或更高版本：
+需要 JDK 21 或更高版本及 Maven 3.9：
 
 ```bash
-npm run dev
+cd backend
+mvn spring-boot:run
 ```
 
-打开 <http://127.0.0.1:4173>。
+服务默认监听 <http://127.0.0.1:8080>，详细配置参见 [后端 README](backend/README.md)。
 
 ## 已实现
 
@@ -28,7 +29,7 @@ npm run dev
 - 原作与作业并排对比
 - 个人主页与本地作品
 - 桌面和移动端响应式布局
-- Node.js API、阿里云 RDS MySQL 数据持久化
+- Java + Spring Boot API、阿里云 RDS MySQL 数据持久化
 - 阿里云 OSS 客户端直传签名链路
 
 ## 当前数据方案

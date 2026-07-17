@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: lumen-api
+  config:
+    import: "optional:file:.env.local[.properties]"
+  datasource:
+    url: "jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/${DB_NAME:photo_position_db}?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC&useSSL=${DB_SSL:false}&allowPublicKeyRetrieval=true"
+    username: "${DB_USER:}"
+    password: "${DB_PASSWORD:}"
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 1
+      connection-timeout: 10000
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+    baseline-version: 0
+    locations: classpath:db/migration
+  jackson:
+    time-zone: UTC
+
+server:
+  port: "${PORT:8080}"
+  error:
+    include-message: never
+
+app:
+  oss:
+    region: "${OSS_REGION:}"
+    bucket: "${OSS_BUCKET:}"
+    endpoint: "${OSS_ENDPOINT:}"
+    access-key-id: "${OSS_ACCESS_KEY_ID:}"
+    access-key-secret: "${OSS_ACCESS_KEY_SECRET:}"
+    secure: "${OSS_SECURE:true}"
+    public-base-url: "${OSS_PUBLIC_BASE_URL:}"
+  allowed-origins: "${ALLOWED_ORIGINS:}"

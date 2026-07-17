@@ -1,6 +1,11 @@
 # Lumen API
 
-Node.js + Express 后端，使用阿里云 RDS MySQL 保存业务数据，使用阿里云 OSS 保存照片。
+Java + Spring Boot 后端，使用阿里云 RDS MySQL 保存业务数据，使用阿里云 OSS 保存照片。
+
+## 环境要求
+
+- JDK 21 或更高版本
+- Maven 3.9 或更高版本
 
 ## 配置
 
@@ -8,7 +13,7 @@ Node.js + Express 后端，使用阿里云 RDS MySQL 保存业务数据，使用
 cp .env.example .env.local
 ```
 
-填写 RDS 与 OSS 配置。`.env.local` 已被 Git 忽略，禁止提交密钥。
+填写 RDS 与 OSS 配置。Spring Boot 启动时会自动读取后端目录下的 `.env.local`。
 
 OSS 必填项：
 
@@ -23,13 +28,19 @@ AccessKey 应使用只允许目标 Bucket 指定目录上传的 RAM 子账号，
 ## 初始化和启动
 
 ```bash
-npm install
-npm run db:check
-npm run db:migrate
-npm start
+mvn spring-boot:run
 ```
 
-服务默认监听 `http://127.0.0.1:8080`，健康检查为 `GET /api/health`。
+Flyway 会在服务启动时自动创建或升级数据表。服务默认监听
+`http://127.0.0.1:8080`，健康检查为 `GET /api/health`。
+
+运行测试和打包：
+
+```bash
+mvn test
+mvn package
+java -jar target/lumen-api-0.1.0.jar
+```
 
 ## MVP 接口
 
