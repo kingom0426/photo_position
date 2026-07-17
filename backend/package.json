@@ -1,0 +1,20 @@
+{
+  "name": "lumen-api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "db:migrate": "node scripts/migrate.js",
+    "db:check": "node scripts/check-db.js"
+  },
+  "dependencies": {
+    "ali-oss": "^6.23.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "mysql2": "^3.14.3"
+  }
+}
