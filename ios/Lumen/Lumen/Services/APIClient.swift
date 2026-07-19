@@ -15,7 +15,7 @@ enum APIError: LocalizedError {
 final class APIClient {
     static let shared = APIClient()
 
-    private let baseURL = URL(string: "http://127.0.0.1/api")!
+    private let baseURL = URL(string: "https://chenxi-edu.com/api")!
     private let session = URLSession.shared
     private let userID = "me"
 

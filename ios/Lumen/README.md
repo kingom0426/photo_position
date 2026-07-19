@@ -44,4 +44,4 @@ xcodebuild -project ios/Lumen/Lumen.xcodeproj \
 
 ## 数据边界
 
-模拟器默认连接本机 `http://127.0.0.1/api`。后端暂时不可用时保留本地演示数据；云端列表非空后会同步展示。发布照片需要后端已配置阿里云 OSS。
+iOS 客户端默认连接 `https://chenxi-edu.com/api`。后端暂时不可用时保留本地演示数据；云端列表非空后会同步展示。发布照片需要后端已配置阿里云 OSS。
