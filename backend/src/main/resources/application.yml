@@ -20,7 +20,7 @@ spring:
     time-zone: UTC
 
 server:
-  port: "${PORT:8080}"
+  port: "${SERVER_PORT:80}"
   error:
     include-message: never
 

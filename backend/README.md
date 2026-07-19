@@ -32,7 +32,7 @@ mvn spring-boot:run
 ```
 
 Flyway 会在服务启动时自动创建或升级数据表。服务默认监听
-`http://127.0.0.1:8080`，健康检查为 `GET /api/health`。
+`http://127.0.0.1:80`，健康检查为 `GET /api/health`。
 
 运行测试和打包：
 
@@ -63,5 +63,5 @@ java -jar target/lumen-api-0.1.0.jar
 
 ## iOS 本地联调
 
-iOS 模拟器默认请求 `http://127.0.0.1:8080/api`。真机调试时需将
+iOS 模拟器默认请求 `http://127.0.0.1/api`。真机调试时需将
 `Lumen/Services/APIClient.swift` 中的地址改为 Mac 的局域网 IP 或已部署的 HTTPS API 域名。

@@ -15,7 +15,7 @@ cd backend
 mvn spring-boot:run
 ```
 
-服务默认监听 <http://127.0.0.1:8080>，详细配置参见 [后端 README](backend/README.md)。
+服务默认监听 <http://127.0.0.1>，详细配置参见 [后端 README](backend/README.md)。
 
 ## 已实现
 
