@@ -36,7 +36,7 @@ public class UserService {
         if (users.isEmpty()) {
             throw new ApiException(HttpStatus.UNAUTHORIZED, "Unknown or inactive user");
         }
-        return users.getFirst();
+        return users.get(0);
     }
 
     public record User(String id, String nickname, String avatarUrl, String city) {}

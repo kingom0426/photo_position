@@ -286,11 +286,11 @@ public class PostService {
                 user.id(),
                 postId.toString()
         );
-        if (!plans.isEmpty() && "COMPLETED".equals(plans.getFirst().status())) {
+        if (!plans.isEmpty() && "COMPLETED".equals(plans.get(0).status())) {
             return new PlanResponse(true);
         }
         if (!plans.isEmpty()) {
-            jdbc.update("DELETE FROM remake_plans WHERE id = ?", plans.getFirst().id());
+            jdbc.update("DELETE FROM remake_plans WHERE id = ?", plans.get(0).id());
             return new PlanResponse(false);
         }
         jdbc.update(

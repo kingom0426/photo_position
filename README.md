@@ -8,7 +8,7 @@
 
 ## 后端运行
 
-需要 JDK 21 或更高版本及 Maven 3.9：
+需要 JDK 17 或更高版本及 Maven 3.9：
 
 ```bash
 cd backend

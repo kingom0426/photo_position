@@ -4,7 +4,7 @@ Java + Spring Boot 后端，使用阿里云 RDS MySQL 保存业务数据，使�
 
 ## 环境要求
 
-- JDK 21 或更高版本
+- JDK 17 或更高版本
 - Maven 3.9 或更高版本
 
 ## 配置
