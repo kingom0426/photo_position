@@ -22,12 +22,6 @@ enum LocationPrivacy: String, Codable, CaseIterable, Identifiable {
     }
 }
 
-enum SeedArtwork: String, Codable {
-    case bund
-    case lake
-    case street
-}
-
 struct CaptureMetadata: Codable, Equatable {
     var camera = ""
     var lens = ""
@@ -54,6 +48,7 @@ struct CaptureMetadata: Codable, Equatable {
 struct PhotoLocation: Codable, Equatable {
     var name: String
     var city: String
+    var detailedAddress: String = ""
     var privacy: LocationPrivacy
     var latitude: Double?
     var longitude: Double?
@@ -62,6 +57,16 @@ struct PhotoLocation: Codable, Equatable {
     var coordinate: CLLocationCoordinate2D? {
         guard let latitude, let longitude else { return nil }
         return CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
+    }
+
+    var displayAddress: String {
+        let positioning = name.trimmingCharacters(in: .whitespacesAndNewlines)
+        let manual = detailedAddress.trimmingCharacters(in: .whitespacesAndNewlines)
+        let validPositioning = positioning.contains("未公开") ? "" : positioning
+        let validManual = manual.contains("未公开") ? "" : manual
+        if validPositioning.isEmpty { return validManual }
+        if validManual.isEmpty || validPositioning.contains(validManual) { return validPositioning }
+        return "\(validPositioning) \(validManual)"
     }
 }
 
@@ -77,9 +82,11 @@ struct PhotoPost: Identifiable, Codable, Equatable {
     var summary: String
     var imageData: Data?
     var imageURL: URL? = nil
-    var seedArtwork: SeedArtwork?
+    var displayImageURL: URL? = nil
+    var originalImageURL: URL? = nil
     var createdAt: Date
     var likeCount: Int
+    var commentCount: Int
     var tags: [String]
     var allowRemake: Bool
     var location: PhotoLocation
@@ -90,11 +97,13 @@ struct PhotoPost: Identifiable, Codable, Equatable {
     var adjusted: String
     var assignmentNotes: String
     var isRecommended: Bool
+    var distanceKm: Double? = nil
 }
 
 struct PhotoComment: Identifiable, Codable, Equatable {
     var id: UUID
     var postID: UUID
+    var authorID: String
     var authorName: String
     var authorAvatar: String
     var text: String
@@ -102,11 +111,62 @@ struct PhotoComment: Identifiable, Codable, Equatable {
 }
 
 struct CurrentUser: Codable {
-    var id = "me"
-    var name = "小野同学"
-    var avatar = "野"
-    var city = "上海"
-    var bio = "用镜头记录城市光线"
+    var id = ""
+    var email = ""
+    var name = "未登录"
+    var avatar = "访"
+    var city = ""
+    var bio = ""
+
+    static let guest = CurrentUser()
+}
+
+struct UserProfile: Identifiable, Codable, Equatable {
+    var id: String
+    var name: String
+    var avatar: String
+    var city: String
+    var bio: String
+}
+
+struct AppNotification: Identifiable, Codable, Equatable {
+    var id: UUID
+    var type: String
+    var title: String
+    var body: String
+    var actorID: String
+    var actorName: String
+    var actorAvatar: String
+    var targetPostID: UUID?
+    var sourcePostID: UUID?
+    var isRead: Bool
+    var createdAt: Date
+}
+
+struct SearchLocation: Identifiable, Equatable {
+    var id: String { "\(city)-\(name)" }
+    var name: String
+    var city: String
+    var latitude: Double?
+    var longitude: Double?
+    var postCount: Int
+}
+
+struct SearchTag: Identifiable, Equatable {
+    var id: String { name }
+    var name: String
+    var usageCount: Int
+}
+
+struct GroupedSearchResults {
+    var posts: [PhotoPost] = []
+    var locations: [SearchLocation] = []
+    var users: [UserProfile] = []
+    var tags: [SearchTag] = []
+
+    var isEmpty: Bool {
+        posts.isEmpty && locations.isEmpty && users.isEmpty && tags.isEmpty
+    }
 }
 
 struct PersistedState: Codable {
@@ -115,5 +175,4 @@ struct PersistedState: Codable {
     var likedPostIDs: Set<UUID>
     var plannedPostIDs: Set<UUID>
     var followedUserIDs: Set<String>
-    var currentUser: CurrentUser
 }

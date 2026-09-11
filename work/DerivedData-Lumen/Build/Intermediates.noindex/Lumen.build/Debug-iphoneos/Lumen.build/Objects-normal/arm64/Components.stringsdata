@@ -1,0 +1,40 @@
+{
+  "source": "/Users/duxin/Documents/photo_position/ios/Lumen/Lumen/Views/Components.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "用户头像",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 64
+        }
+      },
+      {
+        "comment": "",
+        "key": "打开我的页面",
+        "location": {
+          "startingColumn": 53,
+          "startingLine": 93
+        }
+      },
+      {
+        "comment": "",
+        "key": "打开登录页面",
+        "location": {
+          "startingColumn": 76,
+          "startingLine": 93
+        }
+      },
+      {
+        "comment": "",
+        "key": "图片不可用",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 153
+        }
+      }
+    ]
+  },
+  "version": 1
+}

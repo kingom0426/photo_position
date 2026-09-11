@@ -20,10 +20,10 @@ public class UploadController {
 
     @PostMapping("/presign")
     OssService.UploadSignature presign(
-            @RequestHeader(value = "x-user-id", required = false) String userId,
+            @RequestHeader(value = "Authorization", required = false) String authorization,
             @RequestBody(required = false) UploadRequest body
     ) {
-        var user = users.require(userId);
+        var user = users.require(authorization);
         UploadRequest request = body == null
                 ? new UploadRequest("photo.jpg", "image/jpeg", "original")
                 : body;

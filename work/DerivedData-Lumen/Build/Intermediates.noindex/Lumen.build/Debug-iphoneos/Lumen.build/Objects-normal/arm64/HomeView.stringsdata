@@ -1,0 +1,312 @@
+{
+  "source": "/Users/duxin/Documents/photo_position/ios/Lumen/Lumen/Views/HomeView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "搜索作品、地点、摄影师",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 41
+        }
+      },
+      {
+        "comment": "",
+        "key": "关闭搜索",
+        "location": {
+          "startingColumn": 55,
+          "startingLine": 154
+        }
+      },
+      {
+        "comment": "",
+        "key": "搜索",
+        "location": {
+          "startingColumn": 72,
+          "startingLine": 154
+        }
+      },
+      {
+        "comment": "",
+        "key": "99+",
+        "location": {
+          "startingColumn": 71,
+          "startingLine": 134
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 79,
+          "startingLine": 134
+        }
+      },
+      {
+        "comment": "",
+        "key": "按当前位置召回",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 239
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld km",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 245
+        }
+      },
+      {
+        "comment": "",
+        "key": "半径 %lld km",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 248
+        }
+      },
+      {
+        "comment": "",
+        "key": "试试作品名、地点、摄影师或标签",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 269
+        }
+      },
+      {
+        "comment": "",
+        "key": "正在搜索",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 262
+        }
+      },
+      {
+        "comment": "",
+        "key": "没有找到相关内容",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 267
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@ · %lld 个作品",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 300
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@ · %@",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 370
+        }
+      },
+      {
+        "comment": "",
+        "key": "还没有关注用户",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 488
+        }
+      },
+      {
+        "comment": "",
+        "key": "没有找到相关用户",
+        "location": {
+          "startingColumn": 64,
+          "startingLine": 488
+        }
+      },
+      {
+        "comment": "",
+        "key": "在作品详情关注摄影师后，会显示在这里",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 491
+        }
+      },
+      {
+        "comment": "",
+        "key": "换个关键词试试",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 492
+        }
+      },
+      {
+        "comment": "",
+        "key": "# %@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 562
+        }
+      },
+      {
+        "comment": "",
+        "key": "通知",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 615
+        }
+      },
+      {
+        "comment": "",
+        "key": "收到社区互动后会及时提醒你",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 587
+        }
+      },
+      {
+        "comment": "",
+        "key": "还没有通知",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 585
+        }
+      },
+      {
+        "comment": "",
+        "key": "内容不可用",
+        "location": {
+          "startingColumn": 60,
+          "startingLine": 603
+        }
+      },
+      {
+        "comment": "",
+        "key": "全部已读",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 619
+        }
+      },
+      {
+        "comment": "",
+        "key": "光迹",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 699
+        }
+      },
+      {
+        "comment": "",
+        "key": "光迹",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 691
+        }
+      },
+      {
+        "comment": "",
+        "key": "用户空间",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 797
+        }
+      },
+      {
+        "comment": "",
+        "key": "该用户暂未发布原创作品",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 752
+        }
+      },
+      {
+        "comment": "",
+        "key": "正在加载作品",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 745
+        }
+      },
+      {
+        "comment": "",
+        "key": "还没有原创作品",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 750
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld 个作品",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 731
+        }
+      },
+      {
+        "comment": "",
+        "key": "关注",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 735
+        }
+      },
+      {
+        "comment": "",
+        "key": "确认取消关注 %@？",
+        "location": {
+          "startingColumn": 13,
+          "startingLine": 995
+        }
+      },
+      {
+        "comment": "",
+        "key": "关注",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 862
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 936
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 954
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 963
+        }
+      },
+      {
+        "comment": "",
+        "key": "取消关注",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 999
+        }
+      },
+      {
+        "comment": "",
+        "key": "暂不取消",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 1003
+        }
+      }
+    ]
+  },
+  "version": 1
+}

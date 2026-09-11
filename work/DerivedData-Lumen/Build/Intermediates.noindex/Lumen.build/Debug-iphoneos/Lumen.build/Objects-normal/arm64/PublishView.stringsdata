@@ -1,0 +1,512 @@
+{
+  "source": "/Users/duxin/Documents/photo_position/ios/Lumen/Lumen/Views/PublishView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "编辑作品",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 317
+        }
+      },
+      {
+        "comment": "",
+        "key": "提交作业",
+        "location": {
+          "startingColumn": 71,
+          "startingLine": 317
+        }
+      },
+      {
+        "comment": "",
+        "key": "发布作品",
+        "location": {
+          "startingColumn": 88,
+          "startingLine": 317
+        }
+      },
+      {
+        "comment": "",
+        "key": "保存成功",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 349
+        }
+      },
+      {
+        "comment": "",
+        "key": "发布成功",
+        "location": {
+          "startingColumn": 45,
+          "startingLine": 349
+        }
+      },
+      {
+        "comment": "",
+        "key": "操作失败",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 354
+        }
+      },
+      {
+        "comment": "",
+        "key": "请补全必填项",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 357
+        }
+      },
+      {
+        "comment": "",
+        "key": "复刻说明",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 147
+        }
+      },
+      {
+        "comment": "",
+        "key": "作品内容",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 153
+        }
+      },
+      {
+        "comment": "",
+        "key": "已关联",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 87
+        }
+      },
+      {
+        "comment": "",
+        "key": "REMAKE OF",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 83
+        }
+      },
+      {
+        "comment": "",
+        "key": "请选择一张照片",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 138
+        }
+      },
+      {
+        "comment": "",
+        "key": "更换照片",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 112
+        }
+      },
+      {
+        "comment": "",
+        "key": "系统会自动读取可用的 EXIF 拍摄参数",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 130
+        }
+      },
+      {
+        "comment": "",
+        "key": "上传你的拍摄成果",
+        "location": {
+          "startingColumn": 49,
+          "startingLine": 129
+        }
+      },
+      {
+        "comment": "",
+        "key": "选择一张满意的照片",
+        "location": {
+          "startingColumn": 78,
+          "startingLine": 129
+        }
+      },
+      {
+        "comment": "",
+        "key": "照片（必选）",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 142
+        }
+      },
+      {
+        "comment": "",
+        "key": "我沿用了：机位、时间、参数…",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 148
+        }
+      },
+      {
+        "comment": "",
+        "key": "我做了调整：焦段、构图…",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 149
+        }
+      },
+      {
+        "comment": "",
+        "key": "拍摄心得",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 150
+        }
+      },
+      {
+        "comment": "",
+        "key": "作品标题（必填）",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 154
+        }
+      },
+      {
+        "comment": "",
+        "key": "请填写作品标题",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 157
+        }
+      },
+      {
+        "comment": "",
+        "key": "作品说明（可选）",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 160
+        }
+      },
+      {
+        "comment": "",
+        "key": "拍摄思路（可选）",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 161
+        }
+      },
+      {
+        "comment": "",
+        "key": "后期说明（可选）",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 162
+        }
+      },
+      {
+        "comment": "",
+        "key": "已选择：%@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 198
+        }
+      },
+      {
+        "comment": "",
+        "key": "自定义标签",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 188
+        }
+      },
+      {
+        "comment": "",
+        "key": "添加",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 189
+        }
+      },
+      {
+        "comment": "",
+        "key": "作品标签（最多 5 个）",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 203
+        }
+      },
+      {
+        "comment": "",
+        "key": "已从照片识别 %lld 项参数，请确认是否准确",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 208
+        }
+      },
+      {
+        "comment": "",
+        "key": "未识别到 EXIF，可手动补充",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 210
+        }
+      },
+      {
+        "comment": "",
+        "key": "相机",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 212
+        }
+      },
+      {
+        "comment": "",
+        "key": "镜头",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 213
+        }
+      },
+      {
+        "comment": "",
+        "key": "焦段",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 215
+        }
+      },
+      {
+        "comment": "",
+        "key": "光圈",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 216
+        }
+      },
+      {
+        "comment": "",
+        "key": "快门",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 219
+        }
+      },
+      {
+        "comment": "",
+        "key": "ISO",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 220
+        }
+      },
+      {
+        "comment": "",
+        "key": "拍摄参数",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 223
+        }
+      },
+      {
+        "comment": "",
+        "key": "参数来自照片 EXIF 或手动填写，发布时视为由你确认。",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 225
+        }
+      },
+      {
+        "comment": "",
+        "key": "已勾选",
+        "location": {
+          "startingColumn": 66,
+          "startingLine": 244
+        }
+      },
+      {
+        "comment": "",
+        "key": "未勾选",
+        "location": {
+          "startingColumn": 80,
+          "startingLine": 244
+        }
+      },
+      {
+        "comment": "",
+        "key": "隐藏地址",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 237
+        }
+      },
+      {
+        "comment": "",
+        "key": "地址已隐藏，发布时不保存拍摄地点、详细地址和坐标。",
+        "location": {
+          "startingColumn": 51,
+          "startingLine": 246
+        }
+      },
+      {
+        "comment": "",
+        "key": "默认公开拍摄地址；如不希望展示，请勾选隐藏地址。",
+        "location": {
+          "startingColumn": 131,
+          "startingLine": 246
+        }
+      },
+      {
+        "comment": "",
+        "key": "清除拍摄地点",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 279
+        }
+      },
+      {
+        "comment": "",
+        "key": "在地图上确认原作地点",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 285
+        }
+      },
+      {
+        "comment": "",
+        "key": "详细地址（楼层、门牌、机位说明等）",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 287
+        }
+      },
+      {
+        "comment": "",
+        "key": "拍摄地点",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 262
+        }
+      },
+      {
+        "comment": "",
+        "key": "拍摄地点",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 291
+        }
+      },
+      {
+        "comment": "",
+        "key": "将公开所选坐标、地点名称和详细地址。请选择照片的实际拍摄地点，当前位置不会自动填入。",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 293
+        }
+      },
+      {
+        "comment": "",
+        "key": "保存修改",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 304
+        }
+      },
+      {
+        "comment": "",
+        "key": "发布作业",
+        "location": {
+          "startingColumn": 76,
+          "startingLine": 304
+        }
+      },
+      {
+        "comment": "",
+        "key": "发布作品",
+        "location": {
+          "startingColumn": 93,
+          "startingLine": 304
+        }
+      },
+      {
+        "comment": "",
+        "key": "照片正在读取，请稍候。",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 311
+        }
+      },
+      {
+        "comment": "",
+        "key": "请选择照片；公开地址时需选择拍摄地点。",
+        "location": {
+          "startingColumn": 93,
+          "startingLine": 311
+        }
+      },
+      {
+        "comment": "",
+        "key": "照片和作品标题必填；公开地址时需选择拍摄地点。",
+        "location": {
+          "startingColumn": 155,
+          "startingLine": 311
+        }
+      },
+      {
+        "comment": "",
+        "key": "完成",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 322
+        }
+      },
+      {
+        "comment": "",
+        "key": "完成",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 350
+        }
+      },
+      {
+        "comment": "",
+        "key": "作品信息已更新。",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 353
+        }
+      },
+      {
+        "comment": "",
+        "key": "作业已关联到原作。",
+        "location": {
+          "startingColumn": 84,
+          "startingLine": 353
+        }
+      },
+      {
+        "comment": "",
+        "key": "作品已保存到云端。",
+        "location": {
+          "startingColumn": 116,
+          "startingLine": 353
+        }
+      },
+      {
+        "comment": "",
+        "key": "好",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 355
+        }
+      },
+      {
+        "comment": "",
+        "key": "去补充",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 358
+        }
+      }
+    ]
+  },
+  "version": 1
+}

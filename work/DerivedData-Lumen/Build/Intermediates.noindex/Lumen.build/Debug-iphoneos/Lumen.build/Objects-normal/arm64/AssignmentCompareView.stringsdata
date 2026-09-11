@@ -1,0 +1,152 @@
+{
+  "source": "/Users/duxin/Documents/photo_position/ios/Lumen/Lumen/Views/AssignmentCompareView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "原作与作业",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 97
+        }
+      },
+      {
+        "comment": "",
+        "key": "确认删除这份作业？",
+        "location": {
+          "startingColumn": 37,
+          "startingLine": 99
+        }
+      },
+      {
+        "comment": "",
+        "key": "删除失败",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 115
+        }
+      },
+      {
+        "comment": "",
+        "key": "作业不存在",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 122
+        }
+      },
+      {
+        "comment": "",
+        "key": "这次的调整",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 35
+        }
+      },
+      {
+        "comment": "",
+        "key": "原作者推荐",
+        "location": {
+          "startingColumn": 124,
+          "startingLine": 35
+        }
+      },
+      {
+        "comment": "",
+        "key": "沿用：%@",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 37
+        }
+      },
+      {
+        "comment": "",
+        "key": "调整：%@",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 38
+        }
+      },
+      {
+        "comment": "",
+        "key": "写下你的点评",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 64
+        }
+      },
+      {
+        "comment": "",
+        "key": "发送",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 65
+        }
+      },
+      {
+        "comment": "",
+        "key": "快速编辑作业",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 80
+        }
+      },
+      {
+        "comment": "",
+        "key": "删除作业",
+        "location": {
+          "startingColumn": 83,
+          "startingLine": 83
+        }
+      },
+      {
+        "comment": "",
+        "key": "我也来拍",
+        "location": {
+          "startingColumn": 98,
+          "startingLine": 88
+        }
+      },
+      {
+        "comment": "",
+        "key": "登录后参与",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 91
+        }
+      },
+      {
+        "comment": "",
+        "key": "删除作业",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 100
+        }
+      },
+      {
+        "comment": "",
+        "key": "取消",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 111
+        }
+      },
+      {
+        "comment": "",
+        "key": "删除后这份作业将不再公开展示，且无法恢复。",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 113
+        }
+      },
+      {
+        "comment": "",
+        "key": "好",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 116
+        }
+      }
+    ]
+  },
+  "version": 1
+}

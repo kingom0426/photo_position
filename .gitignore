@@ -9,3 +9,4 @@ target/
 !.env.example
 !backend/.env.local
 backend/uploads/
+/work/data-reset-backups/

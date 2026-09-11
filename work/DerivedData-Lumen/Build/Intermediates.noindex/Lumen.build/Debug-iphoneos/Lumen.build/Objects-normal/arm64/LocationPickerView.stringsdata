@@ -1,0 +1,96 @@
+{
+  "source": "/Users/duxin/Documents/photo_position/ios/Lumen/Lumen/Views/LocationPickerView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "选择拍摄地址",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 207
+        }
+      },
+      {
+        "comment": "",
+        "key": "是否切换为这个拍摄地点？",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 214
+        }
+      },
+      {
+        "comment": "",
+        "key": "拍摄地点",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 54
+        }
+      },
+      {
+        "comment": "",
+        "key": "待确认地点",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 57
+        }
+      },
+      {
+        "comment": "",
+        "key": "搜索地点、道路或建筑",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 79
+        }
+      },
+      {
+        "comment": "",
+        "key": "当前定位",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 148
+        }
+      },
+      {
+        "comment": "",
+        "key": "拍摄地点 · 点击地图更换位置",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 172
+        }
+      },
+      {
+        "comment": "",
+        "key": "取消",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 211
+        }
+      },
+      {
+        "comment": "",
+        "key": "确认切换",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 215
+        }
+      },
+      {
+        "comment": "",
+        "key": "保留原地点",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 223
+        }
+      },
+      {
+        "comment": "",
+        "key": "蓝色标记是新选择的位置。确认后将移除原标记，并更新拍摄地址。",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 227
+        }
+      }
+    ]
+  },
+  "version": 1
+}

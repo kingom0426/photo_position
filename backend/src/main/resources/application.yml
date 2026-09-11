@@ -2,7 +2,19 @@ spring:
   application:
     name: lumen-api
   config:
-    import: "optional:file:.env.local[.properties]"
+    import: "optional:file:.env.local[.properties],optional:file:.env.mail.local[.properties]"
+  mail:
+    host: "${MAIL_HOST:smtp.163.com}"
+    port: "${MAIL_PORT:465}"
+    username: "${MAIL_USERNAME:}"
+    password: "${MAIL_PASSWORD:}"
+    properties:
+      mail.smtp.auth: true
+      mail.smtp.ssl.enable: true
+      mail.smtp.ssl.checkserveridentity: true
+      mail.smtp.connectiontimeout: 10000
+      mail.smtp.timeout: 10000
+      mail.smtp.writetimeout: 10000
   datasource:
     url: "jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/${DB_NAME:photo_position_db}?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC&useSSL=${DB_SSL:false}&allowPublicKeyRetrieval=true"
     username: "${DB_USER:}"
@@ -25,6 +37,9 @@ server:
     include-message: never
 
 app:
+  mail:
+    from: "${MAIL_FROM:}"
+    public-base-url: "${PUBLIC_BASE_URL:https://chenxi-edu.com}"
   oss:
     region: "${OSS_REGION:}"
     bucket: "${OSS_BUCKET:}"

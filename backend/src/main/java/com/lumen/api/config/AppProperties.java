@@ -48,4 +48,5 @@ public record AppProperties(Oss oss, String allowedOrigins) {
             return value == null ? "" : value.trim();
         }
     }
+
 }

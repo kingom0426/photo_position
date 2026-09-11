@@ -1,7 +1,8 @@
 // !$*UTF8*$!
 {
 	archiveVersion = 1;
-	classes = {};
+	classes = {
+	};
 	objectVersion = 56;
 	objects = {
 
@@ -9,7 +10,6 @@
 		AA0000000000000000000001 /* LumenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000001 /* LumenApp.swift */; };
 		AA0000000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000002 /* ContentView.swift */; };
 		AA0000000000000000000003 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000003 /* Models.swift */; };
-		AA0000000000000000000004 /* SeedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000004 /* SeedData.swift */; };
 		AA0000000000000000000005 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000005 /* AppStore.swift */; };
 		AA0000000000000000000006 /* EXIFReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000006 /* EXIFReader.swift */; };
 		AA0000000000000000000007 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000007 /* Components.swift */; };
@@ -22,13 +22,14 @@
 		AA0000000000000000000014 /* PublishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000014 /* PublishView.swift */; };
 		AA0000000000000000000015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000015 /* Assets.xcassets */; };
 		AA0000000000000000000017 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000017 /* APIClient.swift */; };
+		AA0000000000000000000018 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000018 /* LocationService.swift */; };
+		AA0000000000000000000019 /* LocationPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0000000000000000000019 /* LocationPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BB0000000000000000000001 /* LumenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumenApp.swift; sourceTree = "<group>"; };
 		BB0000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BB0000000000000000000003 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
-		BB0000000000000000000004 /* SeedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedData.swift; sourceTree = "<group>"; };
 		BB0000000000000000000005 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
 		BB0000000000000000000006 /* EXIFReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EXIFReader.swift; sourceTree = "<group>"; };
 		BB0000000000000000000007 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
@@ -42,47 +43,299 @@
 		BB0000000000000000000015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB0000000000000000000016 /* Lumen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lumen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB0000000000000000000017 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		BB0000000000000000000018 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		BB0000000000000000000019 /* LocationPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CC0000000000000000000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		CC0000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CC0000000000000000000002 = {isa = PBXGroup; children = (CC0000000000000000000003 /* Lumen */, CC0000000000000000000007 /* Products */); sourceTree = "<group>"; };
-		CC0000000000000000000003 /* Lumen */ = {isa = PBXGroup; children = (BB0000000000000000000001, BB0000000000000000000002, CC0000000000000000000004 /* Models */, CC0000000000000000000005 /* Services */, CC0000000000000000000006 /* Views */, BB0000000000000000000015); path = Lumen; sourceTree = "<group>"; };
-		CC0000000000000000000004 /* Models */ = {isa = PBXGroup; children = (BB0000000000000000000003, BB0000000000000000000004, BB0000000000000000000005); path = Models; sourceTree = "<group>"; };
-		CC0000000000000000000005 /* Services */ = {isa = PBXGroup; children = (BB0000000000000000000006, BB0000000000000000000017); path = Services; sourceTree = "<group>"; };
-		CC0000000000000000000006 /* Views */ = {isa = PBXGroup; children = (BB0000000000000000000007, BB0000000000000000000008, BB0000000000000000000009, BB0000000000000000000010, BB0000000000000000000011, BB0000000000000000000012, BB0000000000000000000013, BB0000000000000000000014); path = Views; sourceTree = "<group>"; };
-		CC0000000000000000000007 /* Products */ = {isa = PBXGroup; children = (BB0000000000000000000016); name = Products; sourceTree = "<group>"; };
+		CC0000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				CC0000000000000000000003 /* Lumen */,
+				CC0000000000000000000007 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC0000000000000000000003 /* Lumen */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000000000000000000001 /* LumenApp.swift */,
+				BB0000000000000000000002 /* ContentView.swift */,
+				CC0000000000000000000004 /* Models */,
+				CC0000000000000000000005 /* Services */,
+				CC0000000000000000000006 /* Views */,
+				BB0000000000000000000015 /* Assets.xcassets */,
+			);
+			path = Lumen;
+			sourceTree = "<group>";
+		};
+		CC0000000000000000000004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000000000000000000003 /* Models.swift */,
+				BB0000000000000000000005 /* AppStore.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CC0000000000000000000005 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000000000000000000006 /* EXIFReader.swift */,
+				BB0000000000000000000017 /* APIClient.swift */,
+				BB0000000000000000000018 /* LocationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CC0000000000000000000006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000000000000000000007 /* Components.swift */,
+				BB0000000000000000000008 /* HomeView.swift */,
+				BB0000000000000000000009 /* PostDetailView.swift */,
+				BB0000000000000000000010 /* AssignmentCompareView.swift */,
+				BB0000000000000000000011 /* MapScreen.swift */,
+				BB0000000000000000000012 /* PlansView.swift */,
+				BB0000000000000000000013 /* ProfileView.swift */,
+				BB0000000000000000000014 /* PublishView.swift */,
+				BB0000000000000000000019 /* LocationPickerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CC0000000000000000000007 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000000000000000000016 /* Lumen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DD0000000000000000000001 /* Lumen */ = {isa = PBXNativeTarget; buildConfigurationList = EE0000000000000000000002 /* Build configuration list for PBXNativeTarget "Lumen" */; buildPhases = (CC0000000000000000000008 /* Sources */, CC0000000000000000000001 /* Frameworks */, CC0000000000000000000009 /* Resources */); buildRules = (); dependencies = (); name = Lumen; productName = Lumen; productReference = BB0000000000000000000016 /* Lumen.app */; productType = "com.apple.product-type.application"; };
+		DD0000000000000000000001 /* Lumen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE0000000000000000000002 /* Build configuration list for PBXNativeTarget "Lumen" */;
+			buildPhases = (
+				CC0000000000000000000008 /* Sources */,
+				CC0000000000000000000001 /* Frameworks */,
+				CC0000000000000000000009 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lumen;
+			productName = Lumen;
+			productReference = BB0000000000000000000016 /* Lumen.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DD0000000000000000000002 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 1600; LastUpgradeCheck = 1600; TargetAttributes = {DD0000000000000000000001 = {CreatedOnToolsVersion = 16.0; }; }; }; buildConfigurationList = EE0000000000000000000001 /* Build configuration list for PBXProject "Lumen" */; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = CC0000000000000000000002; productRefGroup = CC0000000000000000000007 /* Products */; projectDirPath = ""; projectRoot = ""; targets = (DD0000000000000000000001 /* Lumen */); };
+		DD0000000000000000000002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					DD0000000000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = EE0000000000000000000001 /* Build configuration list for PBXProject "Lumen" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC0000000000000000000002;
+			productRefGroup = CC0000000000000000000007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD0000000000000000000001 /* Lumen */,
+			);
+		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CC0000000000000000000009 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (AA0000000000000000000015 /* Assets.xcassets in Resources */); runOnlyForDeploymentPostprocessing = 0; };
+		CC0000000000000000000009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0000000000000000000015 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CC0000000000000000000008 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (AA0000000000000000000001, AA0000000000000000000002, AA0000000000000000000003, AA0000000000000000000004, AA0000000000000000000005, AA0000000000000000000006, AA0000000000000000000007, AA0000000000000000000008, AA0000000000000000000009, AA0000000000000000000010, AA0000000000000000000011, AA0000000000000000000012, AA0000000000000000000013, AA0000000000000000000014, AA0000000000000000000017); runOnlyForDeploymentPostprocessing = 0; };
+		CC0000000000000000000008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0000000000000000000001 /* LumenApp.swift in Sources */,
+				AA0000000000000000000002 /* ContentView.swift in Sources */,
+				AA0000000000000000000003 /* Models.swift in Sources */,
+				AA0000000000000000000005 /* AppStore.swift in Sources */,
+				AA0000000000000000000006 /* EXIFReader.swift in Sources */,
+				AA0000000000000000000007 /* Components.swift in Sources */,
+				AA0000000000000000000008 /* HomeView.swift in Sources */,
+				AA0000000000000000000009 /* PostDetailView.swift in Sources */,
+				AA0000000000000000000010 /* AssignmentCompareView.swift in Sources */,
+				AA0000000000000000000011 /* MapScreen.swift in Sources */,
+				AA0000000000000000000012 /* PlansView.swift in Sources */,
+				AA0000000000000000000013 /* ProfileView.swift in Sources */,
+				AA0000000000000000000014 /* PublishView.swift in Sources */,
+				AA0000000000000000000017 /* APIClient.swift in Sources */,
+				AA0000000000000000000018 /* LocationService.swift in Sources */,
+				AA0000000000000000000019 /* LocationPickerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		FF0000000000000000000001 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ANALYZER_NONNULL = YES; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_TESTABILITY = YES; GCC_C_LANGUAGE_STANDARD = gnu17; GCC_OPTIMIZATION_LEVEL = 0; MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE; ONLY_ACTIVE_ARCH = YES; SDKROOT = iphoneos; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)"; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; }; name = Debug; };
-		FF0000000000000000000002 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ANALYZER_NONNULL = YES; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; GCC_C_LANGUAGE_STANDARD = gnu17; MTL_ENABLE_DEBUG_INFO = NO; SDKROOT = iphoneos; SWIFT_COMPILATION_MODE = wholemodule; VALIDATE_PRODUCT = YES; }; name = Release; };
-		FF0000000000000000000003 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; ENABLE_PREVIEWS = YES; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_NSAppTransportSecurity_NSAllowsLocalNetworking = YES; INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "用于选择摄影作品并读取拍摄参数"; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; MARKETING_VERSION = 0.1; PRODUCT_BUNDLE_IDENTIFIER = com.lumen.photo; PRODUCT_NAME = "$(TARGET_NAME)"; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SUPPORTS_MACCATALYST = NO; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; }; name = Debug; };
-		FF0000000000000000000004 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; ENABLE_PREVIEWS = YES; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "用于选择摄影作品并读取拍摄参数"; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; MARKETING_VERSION = 0.1; PRODUCT_BUNDLE_IDENTIFIER = com.lumen.photo; PRODUCT_NAME = "$(TARGET_NAME)"; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SUPPORTS_MACCATALYST = NO; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; }; name = Release; };
+		FF0000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF0000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF0000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7WDGHXV3SM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "光迹";
+				INFOPLIST_KEY_CFBundleName = "光迹";
+				INFOPLIST_KEY_NSAppTransportSecurity_NSAllowsLocalNetworking = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "用于显示你所在城市并推荐附近的摄影机位";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "用于选择摄影作品并读取拍摄参数";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lumen.photo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FF0000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7WDGHXV3SM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "光迹";
+				INFOPLIST_KEY_CFBundleName = "光迹";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "用于显示你所在城市并推荐附近的摄影机位";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "用于选择摄影作品并读取拍摄参数";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lumen.photo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EE0000000000000000000001 /* Build configuration list for PBXProject "Lumen" */ = {isa = XCConfigurationList; buildConfigurations = (FF0000000000000000000001, FF0000000000000000000002); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
-		EE0000000000000000000002 /* Build configuration list for PBXNativeTarget "Lumen" */ = {isa = XCConfigurationList; buildConfigurations = (FF0000000000000000000003, FF0000000000000000000004); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		EE0000000000000000000001 /* Build configuration list for PBXProject "Lumen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF0000000000000000000001 /* Debug */,
+				FF0000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE0000000000000000000002 /* Build configuration list for PBXNativeTarget "Lumen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF0000000000000000000003 /* Debug */,
+				FF0000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 	};
 	rootObject = DD0000000000000000000002 /* Project object */;

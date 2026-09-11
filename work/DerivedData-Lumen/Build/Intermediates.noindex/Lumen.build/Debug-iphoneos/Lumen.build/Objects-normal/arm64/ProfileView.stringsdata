@@ -1,0 +1,672 @@
+{
+  "source": "/Users/duxin/Documents/photo_position/ios/Lumen/Lumen/Views/ProfileView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "我的",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 71
+        }
+      },
+      {
+        "comment": "",
+        "key": "头像上传失败",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 88
+        }
+      },
+      {
+        "comment": "",
+        "key": "还没有发布作品",
+        "location": {
+          "startingColumn": 60,
+          "startingLine": 27
+        }
+      },
+      {
+        "comment": "",
+        "key": "还没有提交作业",
+        "location": {
+          "startingColumn": 86,
+          "startingLine": 27
+        }
+      },
+      {
+        "comment": "",
+        "key": "分享拍摄参数和你的创作经验",
+        "location": {
+          "startingColumn": 78,
+          "startingLine": 29
+        }
+      },
+      {
+        "comment": "",
+        "key": "从喜欢的作品开始一次复刻练习",
+        "location": {
+          "startingColumn": 122,
+          "startingLine": 29
+        }
+      },
+      {
+        "comment": "",
+        "key": "好",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 92
+        }
+      },
+      {
+        "comment": "",
+        "key": "确定退出登录？",
+        "location": {
+          "startingColumn": 37,
+          "startingLine": 164
+        }
+      },
+      {
+        "comment": "",
+        "key": "点击头像更换照片",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 146
+        }
+      },
+      {
+        "comment": "",
+        "key": "退出",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 156
+        }
+      },
+      {
+        "comment": "",
+        "key": "退出登录",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 165
+        }
+      },
+      {
+        "comment": "",
+        "key": "取消",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 166
+        }
+      },
+      {
+        "comment": "",
+        "key": "退出后需要重新登录才能发布作品、提交作业和同步关注内容。",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 168
+        }
+      },
+      {
+        "comment": "",
+        "key": "修改密码",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 175
+        }
+      },
+      {
+        "comment": "",
+        "key": "自我介绍",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 185
+        }
+      },
+      {
+        "comment": "",
+        "key": "添加",
+        "location": {
+          "startingColumn": 63,
+          "startingLine": 191
+        }
+      },
+      {
+        "comment": "",
+        "key": "编辑",
+        "location": {
+          "startingColumn": 74,
+          "startingLine": 191
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@ %lld",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 227
+        }
+      },
+      {
+        "comment": "",
+        "key": "修改昵称",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 311
+        }
+      },
+      {
+        "comment": "",
+        "key": "修改失败",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 324
+        }
+      },
+      {
+        "comment": "",
+        "key": "昵称",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 304
+        }
+      },
+      {
+        "comment": "",
+        "key": "昵称不可与其他用户重复",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 308
+        }
+      },
+      {
+        "comment": "",
+        "key": "取消",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 315
+        }
+      },
+      {
+        "comment": "",
+        "key": "保存中…",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 318
+        }
+      },
+      {
+        "comment": "",
+        "key": "保存",
+        "location": {
+          "startingColumn": 56,
+          "startingLine": 318
+        }
+      },
+      {
+        "comment": "",
+        "key": "好",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 328
+        }
+      },
+      {
+        "comment": "",
+        "key": "编辑自我介绍",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 389
+        }
+      },
+      {
+        "comment": "",
+        "key": "保存失败",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 402
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld/300",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 384
+        }
+      },
+      {
+        "comment": "",
+        "key": "介绍一下你的摄影偏好、常拍题材或所在城市…",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 376
+        }
+      },
+      {
+        "comment": "",
+        "key": "取消",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 393
+        }
+      },
+      {
+        "comment": "",
+        "key": "保存中…",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 396
+        }
+      },
+      {
+        "comment": "",
+        "key": "保存",
+        "location": {
+          "startingColumn": 56,
+          "startingLine": 396
+        }
+      },
+      {
+        "comment": "",
+        "key": "好",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 406
+        }
+      },
+      {
+        "comment": "",
+        "key": "登录或注册",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 443
+        }
+      },
+      {
+        "comment": "",
+        "key": "登录",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 581
+        }
+      },
+      {
+        "comment": "",
+        "key": "注册",
+        "location": {
+          "startingColumn": 53,
+          "startingLine": 581
+        }
+      },
+      {
+        "comment": "",
+        "key": "操作失败",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 588
+        }
+      },
+      {
+        "comment": "",
+        "key": "账号操作",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 473
+        }
+      },
+      {
+        "comment": "",
+        "key": "登录",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 474
+        }
+      },
+      {
+        "comment": "",
+        "key": "注册",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 475
+        }
+      },
+      {
+        "comment": "",
+        "key": "邮箱地址",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 481
+        }
+      },
+      {
+        "comment": "",
+        "key": "密码（至少 8 位）",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 491
+        }
+      },
+      {
+        "comment": "",
+        "key": "确认密码",
+        "location": {
+          "startingColumn": 37,
+          "startingLine": 495
+        }
+      },
+      {
+        "comment": "",
+        "key": "昵称（可选，默认随机生成）",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 498
+        }
+      },
+      {
+        "comment": "",
+        "key": "登录账号",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 502
+        }
+      },
+      {
+        "comment": "",
+        "key": "创建账号",
+        "location": {
+          "startingColumn": 55,
+          "startingLine": 502
+        }
+      },
+      {
+        "comment": "",
+        "key": "使用注册邮箱登录。忘记密码可通过邮件重置。",
+        "location": {
+          "startingColumn": 41,
+          "startingLine": 504
+        }
+      },
+      {
+        "comment": "",
+        "key": "正在发送…",
+        "location": {
+          "startingColumn": 52,
+          "startingLine": 512
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld 秒后可重发",
+        "location": {
+          "startingColumn": 89,
+          "startingLine": 512
+        }
+      },
+      {
+        "comment": "",
+        "key": "发送邮箱验证码",
+        "location": {
+          "startingColumn": 122,
+          "startingLine": 512
+        }
+      },
+      {
+        "comment": "",
+        "key": "邮箱验证码",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 518
+        }
+      },
+      {
+        "comment": "",
+        "key": "请输入最新邮件中的 6 位数字，10 分钟内有效。支持粘贴或自动填充。",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 520
+        }
+      },
+      {
+        "comment": "",
+        "key": "我已阅读并同意",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 538
+        }
+      },
+      {
+        "comment": "",
+        "key": "登录",
+        "location": {
+          "startingColumn": 50,
+          "startingLine": 559
+        }
+      },
+      {
+        "comment": "",
+        "key": "注册并登录",
+        "location": {
+          "startingColumn": 61,
+          "startingLine": 559
+        }
+      },
+      {
+        "comment": "",
+        "key": "忘记密码？",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 575
+        }
+      },
+      {
+        "comment": "",
+        "key": "取消",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 585
+        }
+      },
+      {
+        "comment": "",
+        "key": "好",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 592
+        }
+      },
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 668
+        }
+      },
+      {
+        "comment": "",
+        "key": "6 位邮箱验证码",
+        "location": {
+          "startingColumn": 37,
+          "startingLine": 676
+        }
+      },
+      {
+        "comment": "",
+        "key": "找回密码",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 748
+        }
+      },
+      {
+        "comment": "",
+        "key": "注册邮箱",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 724
+        }
+      },
+      {
+        "comment": "",
+        "key": "我们会向该账号的邮箱发送一次性重置链接。请在 30 分钟内打开邮件设置新密码，再返回 Lumen 登录。",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 730
+        }
+      },
+      {
+        "comment": "",
+        "key": "正在发送…",
+        "location": {
+          "startingColumn": 44,
+          "startingLine": 735
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld 秒后可重发",
+        "location": {
+          "startingColumn": 81,
+          "startingLine": 735
+        }
+      },
+      {
+        "comment": "",
+        "key": "发送重置邮件",
+        "location": {
+          "startingColumn": 114,
+          "startingLine": 735
+        }
+      },
+      {
+        "comment": "",
+        "key": "没收到邮件？请检查垃圾邮件、邮箱拼写，或稍后重试。未绑定邮箱的旧账号需要联系管理员核验处理。",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 743
+        }
+      },
+      {
+        "comment": "",
+        "key": "完成",
+        "location": {
+          "startingColumn": 73,
+          "startingLine": 750
+        }
+      },
+      {
+        "comment": "",
+        "key": "修改密码",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 791
+        }
+      },
+      {
+        "comment": "",
+        "key": "修改成功",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 794
+        }
+      },
+      {
+        "comment": "",
+        "key": "修改失败",
+        "location": {
+          "startingColumn": 49,
+          "startingLine": 794
+        }
+      },
+      {
+        "comment": "",
+        "key": "原密码",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 778
+        }
+      },
+      {
+        "comment": "",
+        "key": "新密码（8–128 位）",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 779
+        }
+      },
+      {
+        "comment": "",
+        "key": "确认新密码",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 780
+        }
+      },
+      {
+        "comment": "",
+        "key": "修改成功后，所有设备都会退出登录。请使用邮箱和新密码重新登录。",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 782
+        }
+      },
+      {
+        "comment": "",
+        "key": "正在修改…",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 785
+        }
+      },
+      {
+        "comment": "",
+        "key": "确认修改",
+        "location": {
+          "startingColumn": 63,
+          "startingLine": 785
+        }
+      },
+      {
+        "comment": "",
+        "key": "取消",
+        "location": {
+          "startingColumn": 73,
+          "startingLine": 793
+        }
+      },
+      {
+        "comment": "",
+        "key": "好",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 797
+        }
+      },
+      {
+        "comment": "",
+        "key": "请返回后重试",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 832
+        }
+      },
+      {
+        "comment": "",
+        "key": "协议加载失败",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 830
+        }
+      },
+      {
+        "comment": "",
+        "key": "完成",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 840
+        }
+      }
+    ]
+  },
+  "version": 1
+}

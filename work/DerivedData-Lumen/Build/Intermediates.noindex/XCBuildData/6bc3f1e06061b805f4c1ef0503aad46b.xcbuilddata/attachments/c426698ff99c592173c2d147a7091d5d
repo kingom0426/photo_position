@@ -1,0 +1,179 @@
+{
+  "" : {
+    "diagnostics" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/Lumen-primary.dia",
+    "emit-module-dependencies" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/Lumen-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/Lumen-primary-emit-module.dia",
+    "pch" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/Lumen-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/Lumen-primary.swiftdeps"
+  },
+  "/Users/duxin/Documents/photo_position/ios/Lumen/Lumen/ContentView.swift" : {
+    "const-values" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/duxin/Documents/photo_position/ios/Lumen/Lumen/LumenApp.swift" : {
+    "const-values" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/LumenApp.swiftconstvalues",
+    "dependencies" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/LumenApp.d",
+    "diagnostics" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/LumenApp.dia",
+    "index-unit-output-path" : "/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/LumenApp.o",
+    "llvm-bc" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/LumenApp.bc",
+    "object" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/LumenApp.o",
+    "swift-dependencies" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/LumenApp.swiftdeps",
+    "swiftmodule" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/LumenApp~partial.swiftmodule"
+  },
+  "/Users/duxin/Documents/photo_position/ios/Lumen/Lumen/Models/AppStore.swift" : {
+    "const-values" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/AppStore.swiftconstvalues",
+    "dependencies" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/AppStore.d",
+    "diagnostics" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/AppStore.dia",
+    "index-unit-output-path" : "/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/AppStore.o",
+    "llvm-bc" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/AppStore.bc",
+    "object" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/AppStore.o",
+    "swift-dependencies" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/AppStore.swiftdeps",
+    "swiftmodule" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/AppStore~partial.swiftmodule"
+  },
+  "/Users/duxin/Documents/photo_position/ios/Lumen/Lumen/Models/Models.swift" : {
+    "const-values" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/Models.swiftconstvalues",
+    "dependencies" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/Models.d",
+    "diagnostics" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/Models.dia",
+    "index-unit-output-path" : "/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/Models.o",
+    "llvm-bc" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/Models.bc",
+    "object" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/Models.o",
+    "swift-dependencies" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/Models.swiftdeps",
+    "swiftmodule" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/Models~partial.swiftmodule"
+  },
+  "/Users/duxin/Documents/photo_position/ios/Lumen/Lumen/Services/APIClient.swift" : {
+    "const-values" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/APIClient.swiftconstvalues",
+    "dependencies" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/APIClient.d",
+    "diagnostics" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/APIClient.dia",
+    "index-unit-output-path" : "/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/APIClient.o",
+    "llvm-bc" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/APIClient.bc",
+    "object" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/APIClient.o",
+    "swift-dependencies" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/APIClient.swiftdeps",
+    "swiftmodule" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/APIClient~partial.swiftmodule"
+  },
+  "/Users/duxin/Documents/photo_position/ios/Lumen/Lumen/Services/EXIFReader.swift" : {
+    "const-values" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/EXIFReader.swiftconstvalues",
+    "dependencies" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/EXIFReader.d",
+    "diagnostics" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/EXIFReader.dia",
+    "index-unit-output-path" : "/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/EXIFReader.o",
+    "llvm-bc" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/EXIFReader.bc",
+    "object" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/EXIFReader.o",
+    "swift-dependencies" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/EXIFReader.swiftdeps",
+    "swiftmodule" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/EXIFReader~partial.swiftmodule"
+  },
+  "/Users/duxin/Documents/photo_position/ios/Lumen/Lumen/Services/LocationService.swift" : {
+    "const-values" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/LocationService.swiftconstvalues",
+    "dependencies" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/LocationService.d",
+    "diagnostics" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/LocationService.dia",
+    "index-unit-output-path" : "/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/LocationService.o",
+    "llvm-bc" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/LocationService.bc",
+    "object" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/LocationService.o",
+    "swift-dependencies" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/LocationService.swiftdeps",
+    "swiftmodule" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/LocationService~partial.swiftmodule"
+  },
+  "/Users/duxin/Documents/photo_position/ios/Lumen/Lumen/Views/AssignmentCompareView.swift" : {
+    "const-values" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/AssignmentCompareView.swiftconstvalues",
+    "dependencies" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/AssignmentCompareView.d",
+    "diagnostics" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/AssignmentCompareView.dia",
+    "index-unit-output-path" : "/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/AssignmentCompareView.o",
+    "llvm-bc" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/AssignmentCompareView.bc",
+    "object" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/AssignmentCompareView.o",
+    "swift-dependencies" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/AssignmentCompareView.swiftdeps",
+    "swiftmodule" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/AssignmentCompareView~partial.swiftmodule"
+  },
+  "/Users/duxin/Documents/photo_position/ios/Lumen/Lumen/Views/Components.swift" : {
+    "const-values" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/Components.swiftconstvalues",
+    "dependencies" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/Components.d",
+    "diagnostics" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/Components.dia",
+    "index-unit-output-path" : "/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/Components.o",
+    "llvm-bc" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/Components.bc",
+    "object" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/Components.o",
+    "swift-dependencies" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/Components.swiftdeps",
+    "swiftmodule" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/Components~partial.swiftmodule"
+  },
+  "/Users/duxin/Documents/photo_position/ios/Lumen/Lumen/Views/HomeView.swift" : {
+    "const-values" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/HomeView.swiftconstvalues",
+    "dependencies" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/HomeView.d",
+    "diagnostics" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/HomeView.dia",
+    "index-unit-output-path" : "/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/HomeView.o",
+    "llvm-bc" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/HomeView.bc",
+    "object" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/HomeView.o",
+    "swift-dependencies" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/HomeView.swiftdeps",
+    "swiftmodule" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/HomeView~partial.swiftmodule"
+  },
+  "/Users/duxin/Documents/photo_position/ios/Lumen/Lumen/Views/LocationPickerView.swift" : {
+    "const-values" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/LocationPickerView.swiftconstvalues",
+    "dependencies" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/LocationPickerView.d",
+    "diagnostics" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/LocationPickerView.dia",
+    "index-unit-output-path" : "/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/LocationPickerView.o",
+    "llvm-bc" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/LocationPickerView.bc",
+    "object" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/LocationPickerView.o",
+    "swift-dependencies" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/LocationPickerView.swiftdeps",
+    "swiftmodule" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/LocationPickerView~partial.swiftmodule"
+  },
+  "/Users/duxin/Documents/photo_position/ios/Lumen/Lumen/Views/MapScreen.swift" : {
+    "const-values" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/MapScreen.swiftconstvalues",
+    "dependencies" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/MapScreen.d",
+    "diagnostics" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/MapScreen.dia",
+    "index-unit-output-path" : "/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/MapScreen.o",
+    "llvm-bc" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/MapScreen.bc",
+    "object" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/MapScreen.o",
+    "swift-dependencies" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/MapScreen.swiftdeps",
+    "swiftmodule" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/MapScreen~partial.swiftmodule"
+  },
+  "/Users/duxin/Documents/photo_position/ios/Lumen/Lumen/Views/PlansView.swift" : {
+    "const-values" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/PlansView.swiftconstvalues",
+    "dependencies" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/PlansView.d",
+    "diagnostics" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/PlansView.dia",
+    "index-unit-output-path" : "/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/PlansView.o",
+    "llvm-bc" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/PlansView.bc",
+    "object" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/PlansView.o",
+    "swift-dependencies" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/PlansView.swiftdeps",
+    "swiftmodule" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/PlansView~partial.swiftmodule"
+  },
+  "/Users/duxin/Documents/photo_position/ios/Lumen/Lumen/Views/PostDetailView.swift" : {
+    "const-values" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/PostDetailView.swiftconstvalues",
+    "dependencies" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/PostDetailView.d",
+    "diagnostics" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/PostDetailView.dia",
+    "index-unit-output-path" : "/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/PostDetailView.o",
+    "llvm-bc" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/PostDetailView.bc",
+    "object" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/PostDetailView.o",
+    "swift-dependencies" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/PostDetailView.swiftdeps",
+    "swiftmodule" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/PostDetailView~partial.swiftmodule"
+  },
+  "/Users/duxin/Documents/photo_position/ios/Lumen/Lumen/Views/ProfileView.swift" : {
+    "const-values" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/ProfileView.swiftconstvalues",
+    "dependencies" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/ProfileView.d",
+    "diagnostics" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/ProfileView.dia",
+    "index-unit-output-path" : "/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/ProfileView.o",
+    "llvm-bc" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/ProfileView.bc",
+    "object" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/ProfileView.o",
+    "swift-dependencies" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/ProfileView.swiftdeps",
+    "swiftmodule" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/ProfileView~partial.swiftmodule"
+  },
+  "/Users/duxin/Documents/photo_position/ios/Lumen/Lumen/Views/PublishView.swift" : {
+    "const-values" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/PublishView.swiftconstvalues",
+    "dependencies" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/PublishView.d",
+    "diagnostics" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/PublishView.dia",
+    "index-unit-output-path" : "/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/PublishView.o",
+    "llvm-bc" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/PublishView.bc",
+    "object" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/PublishView.o",
+    "swift-dependencies" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/PublishView.swiftdeps",
+    "swiftmodule" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/PublishView~partial.swiftmodule"
+  },
+  "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/duxin/Documents/photo_position/work/DerivedData-Lumen/Build/Intermediates.noindex/Lumen.build/Debug-iphoneos/Lumen.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

@@ -33,6 +33,7 @@ public final class PostDtos {
             String name,
             String city,
             String district,
+            String detailedAddress,
             String privacy,
             Double latitude,
             Double longitude,
@@ -47,6 +48,7 @@ public final class PostDtos {
             String title,
             String description,
             Image image,
+            List<String> tags,
             boolean allowRemake,
             String shootingNotes,
             String editingNotes,
@@ -60,7 +62,8 @@ public final class PostDtos {
             boolean planned,
             String createdAt,
             Metadata metadata,
-            Location location
+            Location location,
+            Double distanceKm
     ) {}
 
     public record PostList(
@@ -76,6 +79,7 @@ public final class PostDtos {
             String title,
             String description,
             CreateImage image,
+            List<String> tags,
             Boolean allowRemake,
             String shootingNotes,
             String editingNotes,
@@ -89,7 +93,9 @@ public final class PostDtos {
     public record CreateImage(
             String objectKey,
             String originalUrl,
+            String displayObjectKey,
             String displayUrl,
+            String thumbnailObjectKey,
             String thumbnailUrl
     ) {}
 
@@ -111,6 +117,7 @@ public final class PostDtos {
             String name,
             String city,
             String district,
+            String detailedAddress,
             String privacy,
             Double latitude,
             Double longitude,

@@ -28,7 +28,8 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class OssService {
-    private static final Set<String> VARIANTS = Set.of("original", "display", "thumbnail");
+    private static final Set<String> VARIANTS =
+            Set.of("original", "display", "thumbnail", "avatar");
     private static final Map<String, String> EXTENSIONS = Map.of(
             "image/jpeg", ".jpg",
             "image/png", ".png",
@@ -105,7 +106,7 @@ public class OssService {
         }
         GeneratePresignedUrlRequest request =
                 new GeneratePresignedUrlRequest(properties.bucket(), objectKey, HttpMethod.GET);
-        request.setExpiration(Date.from(clock.instant().plus(Duration.ofHours(1))));
+        request.setExpiration(Date.from(clock.instant().plus(Duration.ofHours(24))));
         return client.generatePresignedUrl(request).toString();
     }
 

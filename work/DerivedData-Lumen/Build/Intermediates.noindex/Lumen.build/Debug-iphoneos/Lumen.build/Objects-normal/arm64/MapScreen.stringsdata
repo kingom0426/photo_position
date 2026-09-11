@@ -1,0 +1,64 @@
+{
+  "source": "/Users/duxin/Documents/photo_position/ios/Lumen/Lumen/Views/MapScreen.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "地图找机位",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 124
+        }
+      },
+      {
+        "comment": "",
+        "key": "在发布或编辑作品时选择并公开拍摄地点，即可显示作品标记。",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 60
+        }
+      },
+      {
+        "comment": "",
+        "key": "正在加载拍摄地点…",
+        "location": {
+          "startingColumn": 51,
+          "startingLine": 57
+        }
+      },
+      {
+        "comment": "",
+        "key": "还没有公开拍摄地点的作品",
+        "location": {
+          "startingColumn": 83,
+          "startingLine": 57
+        }
+      },
+      {
+        "comment": "",
+        "key": "回到当前位置",
+        "location": {
+          "startingColumn": 37,
+          "startingLine": 86
+        }
+      },
+      {
+        "comment": "",
+        "key": "作者：%@",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 100
+        }
+      },
+      {
+        "comment": "",
+        "key": "🔥 %lld",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 206
+        }
+      }
+    ]
+  },
+  "version": 1
+}

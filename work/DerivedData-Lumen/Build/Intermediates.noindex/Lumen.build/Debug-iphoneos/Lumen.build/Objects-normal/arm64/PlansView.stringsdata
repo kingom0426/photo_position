@@ -1,0 +1,56 @@
+{
+  "source": "/Users/duxin/Documents/photo_position/ios/Lumen/Lumen/Views/PlansView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "从作品详情加入一个想复刻的作品",
+        "location": {
+          "startingColumn": 51,
+          "startingLine": 42
+        }
+      },
+      {
+        "comment": "",
+        "key": "完成拍摄后，作业会显示在这里",
+        "location": {
+          "startingColumn": 51,
+          "startingLine": 49
+        }
+      },
+      {
+        "comment": "",
+        "key": "还没有拍摄计划",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 40
+        }
+      },
+      {
+        "comment": "",
+        "key": "还没有提交作业",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 47
+        }
+      },
+      {
+        "comment": "",
+        "key": "交作业",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 139
+        }
+      },
+      {
+        "comment": "",
+        "key": "查看作业",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 146
+        }
+      }
+    ]
+  },
+  "version": 1
+}

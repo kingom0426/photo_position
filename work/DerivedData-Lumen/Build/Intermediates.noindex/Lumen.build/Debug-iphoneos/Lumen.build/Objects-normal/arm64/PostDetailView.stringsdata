@@ -1,0 +1,248 @@
+{
+  "source": "/Users/duxin/Documents/photo_position/ios/Lumen/Lumen/Views/PostDetailView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "它可能已被删除或暂时不可见",
+        "location": {
+          "startingColumn": 99,
+          "startingLine": 329
+        }
+      },
+      {
+        "comment": "",
+        "key": "作品不存在",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 329
+        }
+      },
+      {
+        "comment": "",
+        "key": "作品详情",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 294
+        }
+      },
+      {
+        "comment": "",
+        "key": "确认删除这张作品？",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 300
+        }
+      },
+      {
+        "comment": "",
+        "key": "删除失败",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 320
+        }
+      },
+      {
+        "comment": "",
+        "key": "查看大图",
+        "location": {
+          "startingColumn": 49,
+          "startingLine": 39
+        }
+      },
+      {
+        "comment": "",
+        "key": "ORIGINAL · %@",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 30
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@ · %@",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 36
+        }
+      },
+      {
+        "comment": "",
+        "key": "已关注",
+        "location": {
+          "startingColumn": 79,
+          "startingLine": 63
+        }
+      },
+      {
+        "comment": "",
+        "key": "关注",
+        "location": {
+          "startingColumn": 93,
+          "startingLine": 63
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@ · 摄影爱好者",
+        "location": {
+          "startingColumn": 50,
+          "startingLine": 56
+        }
+      },
+      {
+        "comment": "",
+        "key": "后期：%@",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 79
+        }
+      },
+      {
+        "comment": "",
+        "key": "定位地址",
+        "location": {
+          "startingColumn": 50,
+          "startingLine": 131
+        }
+      },
+      {
+        "comment": "",
+        "key": "详细地址",
+        "location": {
+          "startingColumn": 50,
+          "startingLine": 148
+        }
+      },
+      {
+        "comment": "",
+        "key": "编辑作品，选择拍摄地点并确认公开后，将在这里和地图页显示。",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 171
+        }
+      },
+      {
+        "comment": "",
+        "key": "拍摄地点未公开或尚未填写",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 166
+        }
+      },
+      {
+        "comment": "",
+        "key": "还没有人提交作业，成为第一个复刻者。",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 183
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@的作业",
+        "location": {
+          "startingColumn": 54,
+          "startingLine": 190
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@%@",
+        "location": {
+          "startingColumn": 54,
+          "startingLine": 191
+        }
+      },
+      {
+        "comment": "",
+        "key": "友善、具体地交流拍摄经验",
+        "location": {
+          "startingColumn": 47,
+          "startingLine": 227
+        }
+      },
+      {
+        "comment": "",
+        "key": "发送",
+        "location": {
+          "startingColumn": 44,
+          "startingLine": 228
+        }
+      },
+      {
+        "comment": "",
+        "key": "快速编辑",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 257
+        }
+      },
+      {
+        "comment": "",
+        "key": "删除作品",
+        "location": {
+          "startingColumn": 47,
+          "startingLine": 270
+        }
+      },
+      {
+        "comment": "",
+        "key": "查看我的作业",
+        "location": {
+          "startingColumn": 123,
+          "startingLine": 281
+        }
+      },
+      {
+        "comment": "",
+        "key": "交作业",
+        "location": {
+          "startingColumn": 98,
+          "startingLine": 284
+        }
+      },
+      {
+        "comment": "",
+        "key": "我想拍",
+        "location": {
+          "startingColumn": 85,
+          "startingLine": 287
+        }
+      },
+      {
+        "comment": "",
+        "key": "删除作品",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 304
+        }
+      },
+      {
+        "comment": "",
+        "key": "取消",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 316
+        }
+      },
+      {
+        "comment": "",
+        "key": "删除后作品将不再展示，此操作无法撤销。",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 318
+        }
+      },
+      {
+        "comment": "",
+        "key": "知道了",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 324
+        }
+      }
+    ]
+  },
+  "version": 1
+}
