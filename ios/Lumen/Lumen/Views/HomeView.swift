@@ -53,7 +53,7 @@ struct HomeView: View {
                         }
                         .padding(.horizontal, 14)
                         .frame(height: 42)
-                        .background(Color.white, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+                        .background(LumenTheme.surface, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
                         .padding(.horizontal, 12)
                         .padding(.top, 8)
                         .transition(.move(edge: .top).combined(with: .opacity))
@@ -96,6 +96,7 @@ struct HomeView: View {
                 homeHeader
             }
             .toolbar(.hidden, for: .navigationBar)
+            .background(LumenTheme.surface.ignoresSafeArea())
         }
         .id(homeNavigationIdentity)
         .task(id: feedReloadIdentity) {
@@ -156,7 +157,7 @@ struct HomeView: View {
         }
         .padding(.horizontal, 8)
         .frame(height: 54)
-        .background(Color.white)
+        .background(LumenTheme.surface)
         .overlay(alignment: .bottom) {
             Rectangle()
                 .fill(.black.opacity(0.06))
@@ -221,11 +222,11 @@ struct HomeView: View {
                                 .frame(height: 34)
                                 .foregroundStyle(selectedFilters.contains(filter.id) ? Color.white : LumenTheme.ink)
                                 .background(
-                                    selectedFilters.contains(filter.id) ? LumenTheme.ink : Color.white,
+                                    selectedFilters.contains(filter.id) ? LumenTheme.accent : LumenTheme.surface,
                                     in: Capsule()
                                 )
                                 .overlay {
-                                    Capsule().stroke(.black.opacity(0.08), lineWidth: 0.5)
+                                    Capsule().stroke(LumenTheme.divider, lineWidth: 0.5)
                                 }
                         }
                         .buttonStyle(.plain)
@@ -306,7 +307,7 @@ struct HomeView: View {
                             }
                             .padding(.horizontal, 16)
                             .frame(minHeight: 62)
-                            .background(Color.white)
+                            .background(LumenTheme.surface)
                         }
                         .buttonStyle(.plain)
                     }
@@ -335,7 +336,7 @@ struct HomeView: View {
                             }
                             .padding(.horizontal, 16)
                             .frame(minHeight: 62)
-                            .background(Color.white)
+                            .background(LumenTheme.surface)
                         }
                         .buttonStyle(.plain)
                     }
@@ -344,7 +345,7 @@ struct HomeView: View {
                     searchSectionTitle("标签")
                     FlowTagRows(tags: searchResults.tags.map(\.name))
                         .padding(16)
-                        .background(Color.white)
+                        .background(LumenTheme.surface)
                 }
             }
         }
@@ -379,7 +380,7 @@ struct HomeView: View {
         }
         .padding(.horizontal, 16)
         .frame(minHeight: 82)
-        .background(Color.white)
+        .background(LumenTheme.surface)
     }
 
     private var quickFilters: [(id: String, title: String, icon: String)] {
@@ -516,7 +517,7 @@ struct HomeView: View {
                         }
                         .padding(.horizontal, 16)
                         .frame(minHeight: 76)
-                        .background(Color.white)
+                        .background(LumenTheme.surface)
                     }
                     .buttonStyle(.plain)
 
@@ -544,7 +545,7 @@ struct HomeView: View {
     }
 
     private var feedBackground: Color {
-        Color(red: 0.95, green: 0.95, blue: 0.94)
+        LumenTheme.canvas
     }
 
     private var homeNavigationIdentity: String {
@@ -741,7 +742,7 @@ struct UserSpaceView: View {
                 }
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 24)
-                .background(Color.white)
+                .background(LumenTheme.surface)
 
                 if isLoading && originalPosts.isEmpty {
                     ProgressView("正在加载作品")
@@ -786,7 +787,7 @@ struct UserSpaceView: View {
                                 }
                                 .padding(.horizontal, 14)
                                 .padding(.vertical, 10)
-                                .background(Color.white)
+                                .background(LumenTheme.surface)
                             }
                             .buttonStyle(.plain)
                         }
@@ -795,7 +796,7 @@ struct UserSpaceView: View {
                 }
             }
         }
-        .background(Color(red: 0.95, green: 0.95, blue: 0.94))
+        .background(LumenTheme.canvas)
         .navigationTitle("用户空间")
         .navigationBarTitleDisplayMode(.inline)
         .task(id: user.id) {
@@ -978,7 +979,7 @@ private struct FeedPostCard: View {
             .padding(.top, 8)
         }
         .frame(width: cardWidth)
-        .background(Color.white)
+        .background(LumenTheme.surface)
         .overlay {
             Rectangle()
                 .stroke(.black.opacity(0.045), lineWidth: 0.5)

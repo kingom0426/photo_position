@@ -4,13 +4,14 @@ import SwiftUI
 struct LumenApp: App {
     @StateObject private var store = AppStore()
     @StateObject private var locationService = LocationService()
+    @AppStorage(AppAppearance.storageKey) private var appearance = AppAppearance.system.rawValue
 
     var body: some Scene {
         WindowGroup {
             ContentView()
                 .environmentObject(store)
                 .environmentObject(locationService)
-                .preferredColorScheme(.light)
+                .preferredColorScheme(AppAppearance(rawValue: appearance)?.colorScheme)
         }
     }
 }

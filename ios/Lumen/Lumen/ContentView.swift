@@ -45,6 +45,8 @@ struct ContentView: View {
                 .tag(4)
         }
         .tint(LumenTheme.ink)
+        .toolbarBackground(LumenTheme.surface, for: .tabBar)
+        .toolbarBackground(.visible, for: .tabBar)
         .task {
             locationService.requestCurrentLocation()
             await store.start()

@@ -28,7 +28,7 @@ struct PlansView: View {
                         }
                         .frame(maxWidth: .infinity)
                         .frame(height: 54)
-                        .background(Color.white)
+                        .background(LumenTheme.surface)
                         .overlay(alignment: .bottom) {
                             Rectangle()
                                 .fill(.black.opacity(0.06))
@@ -59,7 +59,7 @@ struct PlansView: View {
                                 .padding(12)
                                 .padding(.bottom, 16)
                             }
-                            .background(Color(.systemGroupedBackground))
+                            .background(LumenTheme.canvas)
                         }
                     }
                     .simultaneousGesture(planSwipeGesture)
@@ -153,7 +153,7 @@ struct PlansView: View {
             .padding(.horizontal, 12)
             .padding(.vertical, 9)
         }
-        .background(Color.white, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+        .background(LumenTheme.surface, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
         .overlay {
             RoundedRectangle(cornerRadius: 14, style: .continuous)
                 .stroke(.black.opacity(0.05), lineWidth: 0.5)

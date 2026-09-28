@@ -29,7 +29,7 @@ struct ProfileView: View {
                                     description: Text(selectedContent == 0 ? "分享拍摄参数和你的创作经验" : "从喜欢的作品开始一次复刻练习")
                                 )
                                 .frame(minHeight: 280)
-                                .background(Color.white)
+                                .background(LumenTheme.surface)
                             } else {
                                 LazyVGrid(
                                     columns: Array(repeating: GridItem(.flexible(), spacing: 8), count: 3),
@@ -60,7 +60,7 @@ struct ProfileView: View {
                         }
                         .simultaneousGesture(contentSwipeGesture)
                     }
-                    .background(Color(.systemGroupedBackground))
+                    .background(LumenTheme.canvas)
                 } else {
                     GuestGateView(
                         title: "登录后查看个人主页",
@@ -70,6 +70,16 @@ struct ProfileView: View {
             }
             .navigationTitle("我的")
             .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    NavigationLink {
+                        AppearanceSettingsView()
+                    } label: {
+                        Image(systemName: "gearshape")
+                    }
+                    .accessibilityLabel("设置")
+                }
+            }
             .sheet(isPresented: $showingNicknameEditor) {
                 NicknameEditorView(currentNickname: store.currentUser.name)
                     .environmentObject(store)
@@ -203,7 +213,7 @@ struct ProfileView: View {
             }
         }
         .padding(18)
-        .background(Color.white)
+        .background(LumenTheme.surface)
     }
 
     private var contentTabs: some View {
@@ -212,7 +222,7 @@ struct ProfileView: View {
             contentTab(title: "作业", count: assignmentPosts.count, index: 1)
         }
         .frame(height: 54)
-        .background(Color.white)
+        .background(LumenTheme.surface)
         .overlay(alignment: .bottom) {
             Rectangle()
                 .fill(.black.opacity(0.06))
@@ -283,6 +293,32 @@ struct ProfileView: View {
 
     private var displayedPosts: [PhotoPost] {
         selectedContent == 0 ? originalPosts : assignmentPosts
+    }
+}
+
+private struct AppearanceSettingsView: View {
+    @AppStorage(AppAppearance.storageKey) private var appearance = AppAppearance.system.rawValue
+
+    var body: some View {
+        Form {
+            Section {
+                Picker("背景模式", selection: $appearance) {
+                    ForEach(AppAppearance.allCases) { option in
+                        Text(option.title).tag(option.rawValue)
+                    }
+                }
+                .pickerStyle(.inline)
+                .labelsHidden()
+            } header: {
+                Text("外观")
+            } footer: {
+                Text("选择“跟随手机系统”后，Lumen 会随手机的深色或浅色外观自动切换。")
+            }
+        }
+        .scrollContentBackground(.hidden)
+        .background(LumenTheme.canvas)
+        .navigationTitle("设置")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

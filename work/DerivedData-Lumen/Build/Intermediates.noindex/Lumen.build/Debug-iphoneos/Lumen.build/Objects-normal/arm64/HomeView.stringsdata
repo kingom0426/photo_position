@@ -207,7 +207,7 @@
         "key": "用户空间",
         "location": {
           "startingColumn": 26,
-          "startingLine": 797
+          "startingLine": 799
         }
       },
       {
@@ -215,7 +215,7 @@
         "key": "该用户暂未发布原创作品",
         "location": {
           "startingColumn": 43,
-          "startingLine": 752
+          "startingLine": 754
         }
       },
       {
@@ -223,7 +223,7 @@
         "key": "正在加载作品",
         "location": {
           "startingColumn": 34,
-          "startingLine": 745
+          "startingLine": 747
         }
       },
       {
@@ -231,7 +231,7 @@
         "key": "还没有原创作品",
         "location": {
           "startingColumn": 25,
-          "startingLine": 750
+          "startingLine": 752
         }
       },
       {
@@ -244,9 +244,17 @@
       },
       {
         "comment": "",
+        "key": "取消关注",
+        "location": {
+          "startingColumn": 61,
+          "startingLine": 735
+        }
+      },
+      {
+        "comment": "",
         "key": "关注",
         "location": {
-          "startingColumn": 32,
+          "startingColumn": 78,
           "startingLine": 735
         }
       },
@@ -255,7 +263,7 @@
         "key": "确认取消关注 %@？",
         "location": {
           "startingColumn": 13,
-          "startingLine": 995
+          "startingLine": 997
         }
       },
       {
@@ -263,7 +271,7 @@
         "key": "关注",
         "location": {
           "startingColumn": 34,
-          "startingLine": 862
+          "startingLine": 864
         }
       },
       {
@@ -271,7 +279,7 @@
         "key": "%lld",
         "location": {
           "startingColumn": 30,
-          "startingLine": 936
+          "startingLine": 938
         }
       },
       {
@@ -279,7 +287,7 @@
         "key": "%lld",
         "location": {
           "startingColumn": 26,
-          "startingLine": 954
+          "startingLine": 956
         }
       },
       {
@@ -287,7 +295,7 @@
         "key": "%lld",
         "location": {
           "startingColumn": 26,
-          "startingLine": 963
+          "startingLine": 965
         }
       },
       {
@@ -295,7 +303,7 @@
         "key": "取消关注",
         "location": {
           "startingColumn": 20,
-          "startingLine": 999
+          "startingLine": 1001
         }
       },
       {
@@ -303,7 +311,7 @@
         "key": "暂不取消",
         "location": {
           "startingColumn": 20,
-          "startingLine": 1003
+          "startingLine": 1005
         }
       }
     ]

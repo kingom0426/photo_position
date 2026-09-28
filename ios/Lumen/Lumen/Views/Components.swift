@@ -1,11 +1,46 @@
 import SwiftUI
 import UIKit
 
+enum AppAppearance: String, CaseIterable, Identifiable {
+    static let storageKey = "appAppearance"
+
+    case system
+    case light
+    case dark
+
+    var id: String { rawValue }
+
+    var title: String {
+        switch self {
+        case .system: "跟随手机系统"
+        case .light: "浅色"
+        case .dark: "深色"
+        }
+    }
+
+    var colorScheme: ColorScheme? {
+        switch self {
+        case .system: nil
+        case .light: .light
+        case .dark: .dark
+        }
+    }
+}
+
 enum LumenTheme {
-    static let canvas = Color(red: 0.957, green: 0.949, blue: 0.925)
-    static let surface = Color(red: 0.984, green: 0.980, blue: 0.965)
-    static let ink = Color(red: 0.086, green: 0.094, blue: 0.090)
-    static let muted = Color(red: 0.45, green: 0.46, blue: 0.44)
+    static let canvas = Color(UIColor { traits in
+        traits.userInterfaceStyle == .dark
+            ? UIColor(red: 0.094, green: 0.102, blue: 0.110, alpha: 1)
+            : UIColor(red: 0.950, green: 0.950, blue: 0.940, alpha: 1)
+    })
+    static let surface = Color(UIColor { traits in
+        traits.userInterfaceStyle == .dark
+            ? UIColor(red: 0.137, green: 0.145, blue: 0.157, alpha: 1)
+            : .white
+    })
+    static let ink = Color(.label)
+    static let muted = Color(.secondaryLabel)
+    static let divider = Color(.separator)
     static let accent = Color(red: 0.85, green: 0.36, blue: 0.22)
 }
 

@@ -7,6 +7,5 @@ target/
 .env
 .env.*
 !.env.example
-!backend/.env.local
 backend/uploads/
 /work/data-reset-backups/
